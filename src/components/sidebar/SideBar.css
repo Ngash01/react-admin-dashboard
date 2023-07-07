@@ -1,0 +1,54 @@
+.sideBar{
+  flex: 1;
+  background-color: whitesmoke
+}
+
+
+.wrapperSidebar{
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+  padding-right: 13px;
+
+}
+
+.Contents{
+  display: flex;
+  font-size: medium;
+  flex-direction: column;
+  margin-bottom: 10px;
+}
+
+.section{
+  display: flex;
+  align-items: center;
+  margin-top: 5px;
+  font-size: 15px;
+  font-weight: 400;
+  color:rgb(85, 83, 83) ;
+  gap: 5px;
+  margin-left: 15px;
+  margin-bottom: 2px;
+  cursor: pointer;
+  padding:5px 4px;
+  border-radius: 8px; 
+}
+
+.section.active, 
+.section:hover{
+  background-color: rgb(230, 236, 238);
+
+}
+
+.section-icon{
+  font-size: 20px;
+}
+
+.header{
+  color: rgb(56, 55, 55);
+}
+
+a{
+  text-decoration: none !important;
+  color: inherit ;
+}

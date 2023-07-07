@@ -1,0 +1,82 @@
+.newUser{
+  flex:4;
+  /* padding: 20px; */
+  width: 100%;
+  margin-left: 10px;
+  margin-top: -10px;
+}
+
+.container{
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  width: 90%;
+  padding: 10px;
+}
+
+.newUserLeft{
+  flex: 1;
+  margin-right: 20px;
+}
+
+.newUserRight{
+  flex: 1;
+}
+
+.inputNewUser{
+  border: 2px solid rgb(138, 132, 132);
+  padding: 5px;
+  border-radius: 8px;
+  width:100%;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+.newUserLeftSpan{
+  margin-bottom: 10px;
+}
+
+.newUserLefttype{
+  margin-bottom: 10px;
+  color: rgb(80, 76, 76);
+  font-weight: 600;
+}
+
+.genderSelection{
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.circleIcon{
+  font-size: 15px;
+  color: rgb(80, 76, 76);
+}
+
+.createNewUserButton{
+  color: whitesmoke;
+  background-color: darkblue;
+  padding: 3px 50px;
+  border: none;
+  border-radius: 7px;
+  cursor: pointer;
+}
+
+.genderSelectionLabel{
+  color: rgb(80, 76, 76);;
+}
+
+.newUserActive{
+  display: flex;
+  position: relative;
+
+}
+
+.inputNewUserActiveIcon{
+  position: absolute;
+  right: 4px;
+  margin: 10px;
+  cursor: pointer;
+  margin-left: 30px;
+}
